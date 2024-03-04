@@ -1,0 +1,271 @@
+.container{
+
+    display: block;
+
+}
+
+.ContainerHeader{
+    min-height: calc(100vh - 5rem);
+    margin: 0 auto;
+    max-width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img{
+
+    max-width: 50%;
+}
+
+.ctaText{
+
+    max-width: 40%;
+    h1{
+
+        font-size: 2.5rem;
+        line-height: 4.5rem;
+        font-weight: 900;
+        margin-top: 2.5rem;
+        color: var(--white);
+    }
+
+    span{
+
+        font-size: 1rem;
+        line-height: 2.5rem;
+        color: var(--white);
+    }
+
+    button{
+        display: block;
+        background-color: var(--blue-900);
+        border: 0;
+        padding: 1rem 1.8rem;
+        margin-top: 2.5rem;
+        border-radius: 7px;
+        color: var(--white);
+        font-weight: bold;
+    }
+
+    button:hover{
+
+        filter: brightness(1.1);
+    }
+}
+
+
+
+
+.SecondLandContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.SecondLand{
+
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 1px var(--gray-100);
+    border-bottom: solid 1px var(--gray-100);
+}
+
+.ThirdLand{
+
+    width: 100%;
+    max-width: 100%;
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.FirtComp{
+
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.FirstCompTexts{
+    max-width: 40%;
+    h1{
+
+        font-size: 3.5rem;
+        line-height: 4.5rem;
+        font-weight: 900;
+        margin-top: 2.5rem;
+        color: var(--white);
+    }
+
+    span{
+
+        font-size: 1rem;
+        line-height: 2.5rem;
+        color: var(--white);
+    }
+
+}
+
+.SecondComp{
+
+    width: 100%;
+    max-width: 1321px;
+
+    button{
+        display: block;
+        background-color: var(--blue-900);
+        border: 0;
+        padding: 1rem 1.8rem;
+        margin-top: 2.5rem;
+        border-radius: 7px;
+        color: var(--white);
+        font-weight: bold;
+    }
+
+    button:hover{
+
+        filter: brightness(1.1);
+    }
+
+    h1{
+
+        font-size: 2.5rem;
+        line-height: 4.5rem;
+        font-weight: 900;
+        margin-top: 2.5rem;
+        color: var(--white);
+    }
+
+    p{
+
+        font-size: 1rem;
+        line-height: 2.5rem;
+        color: var(--white);
+    }
+}
+
+@media (max-width: 800px) {
+    
+    .ContainerHeader{
+        min-height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1em;
+
+
+        h1{
+
+            font-size: 2.5rem;
+            line-height: 4.5rem;
+            font-weight: 900;
+            margin-top: 2.5rem;
+            color: var(--white); 
+        
+        }
+
+
+    }
+
+    .ctaText{
+
+        max-width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        button{
+
+            
+        }
+    }
+
+    .SecondLandContainer{
+
+        padding: 1em;
+
+    }
+
+    .img{
+
+        display: none;
+    }
+
+    .ThirdLand{
+
+        width: 100%;
+        max-width: 100%;
+    
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1em;
+
+    }
+    
+    .FirtComp{
+    
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+    
+    .FirstCompTexts{
+        max-width: 100%;
+        text-align: center;
+        h1{
+    
+            font-size: 1.5rem;
+            font-weight: 900;
+            color: var(--white);
+        }
+    
+        span{
+    
+            font-size: 1rem;
+            line-height: 2.5rem;
+            color: var(--white);
+        }
+    
+    }
+
+    .SecondComp{
+
+        text-align: center;
+
+        h1{
+
+            font-size: 1.5em;
+            line-height: default;
+        }
+        .imgSecond{
+
+            width: 80%;
+        }
+
+
+        button{
+
+            margin: 1em auto;
+        }
+    }
+}
