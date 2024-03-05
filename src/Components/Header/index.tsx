@@ -26,7 +26,7 @@ function index() {
                         </ActiveLink>
 
 
-                        <ActiveLink href='/Conteúdo' activeClassName={styles.active}>
+                        <ActiveLink href='/posts' activeClassName={styles.active}>
                             <a>Conteúdo</a>
 
 
